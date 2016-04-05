@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+#header {
+    background-color:lightblue;
+    color:black;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:black;
+    height:500px;
+    width:200px;
+    float:right;
+    padding:10px;	      
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+#footer {
+    background-color:lightblue;
+    color:black;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+</style>
+</head>
+<body>
+
+<div id="header">
+<h1>Comportamentul la pisici</h1>
+<body style="pis1.jpg">
+</body>
+</div>
+
+<div id="nav" >
+   <div class="dropdown">
+  <span><h style="color:white">Comportamentul pisicii</h></span>
+  <div class="dropdown-content">
+    <p>Puii</p>
+    <p>Adult</p>
+    <p>Mama</p>
+  </div>
+</div>
+</div>
+
+<div id="section">
+<h2>Pisica</h2>
+<p>bla bla bla chestii despre pisici</p>
+<p>bla bla bla iar pisici</p>
+</div>
+
+<div id="footer">
+<b><i>Miau! Miau! Miau!</i></b>
+</div>
+
+
+</body>
+</html>
+

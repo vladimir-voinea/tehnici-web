@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+#header {
+    background-color:rgb(98, 0, 62);
+    color:black;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:black;
+    height:630px;
+    width:200px;
+    float:right;
+    padding:10px;	      
+}
+#section {
+    width:1000px;
+    float:left;
+    padding:10px;	 	 
+}
+#footer {
+    background-color:rgb(98, 0, 62);
+    color:black;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+
+<div id="header">
+<h1>Comportamentul la pisici</h1>
+</div>
+
+<div id="nav" >
+   <div class="dropdown">
+  <span><h3 style="color:white">Comportamentul pisicii</h3></span>
+  <div class="dropdown-content">
+    <p><a href="/home/maria/Desktop/Proiect Tw/Pg1/Pagina1.html " target="_blank">Prima pagina</a></p>
+    <p><a href="/home/maria/Desktop/Proiect Tw/Pg3/Pagina3.html " target="_blank">Adult</a></p>
+    <p><a href="/home/maria/Desktop/Proiect Tw/Pg4/Pagina4.html " target="_blank">Mama</a></p>
+    <p><a href="/home/maria/Desktop/Proiect Tw/Index/Index.html " target="_blank">Link-uri</a></p>
+  </div>
+</div>
+</div>
+
+<div id="section">
+<h2 style="text-align: center;">Puii de pisica</h2>
+<p>Stiai ca...</p>
+<p style="text-align:justify;">Daca o pisicuta a ramas orfana sau o fost agresata de la o varsta frageda, va avea probleme de comportament, cu siguranta. Pisicile-mame sunt foarte tandre cu puiii lor si comunica cu ei intr-un fel in care oamenii nu pot comunica cu pisicile.</p>
+<p style="text-align:justify;">Agresivitatea <q>din joaca</q> este des intalnita in cazul puilor, este bine stiut ca puii de pisica au obiceiul de a-si musca sau zgaria partenerii de joaca indiferent ca acestia sunt oameni sau animale. Atata timp cat nu incurajati acest comportament el nu se va mai manifesta si cand puiul creste, daca el este incurajat – chiar si binecunoscutul obicei de a-i da pisicii un deget pe care sa-l muste este o incurajare a acestui comportament – la maturitate pisica o sa va creeze probleme din cauza acestui tip de agresivitate.</p>
+<img src="pui.jpg" width="580px" height="400px">
+</div>
+
+<div id="footer">
+<b><i>Miau! Miau! Miau!</i></b>
+</div>
+
+
+</body>
+</html>
